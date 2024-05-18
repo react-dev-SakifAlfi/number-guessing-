@@ -1,0 +1,251 @@
+body{
+    background-color: #1B1B1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+/* Error and messages css */
+.nameshowingtext{
+    font-size: 45px;
+    font-weight: 100;
+    font-family: "Jersey 15", sans-serif;
+    color: #ffffff;
+
+}
+.err{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+}
+.winner{
+    font-size: 30px;
+    color: #FFFFEC;
+    font-family: "DM Sans", sans-serif;
+}
+.wrong{
+    font-size: 32px;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    margin-top: 0;
+    margin-bottom: 1.33em;
+    padding: 0;
+}
+.errsecond{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+}
+.remainder{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    color: #deded5;
+    font-family: "Poetsen One", sans-serif;
+}
+.attempts{
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 48px;
+    padding: 0;
+    color: #25b41b;
+    font-family: "Poppins", sans-serif;
+}
+/* Error and messages css */
+
+/* nameplate css */
+.mainplate{
+    width: 500px;
+    border: 3px dashed #292929;
+    display: block;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 200px;
+}
+.forblock{
+    display: none;
+}
+.maintext{
+    color: #e3e3b8;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 0;
+}
+.maininput{
+    height: 50px;
+    width: 400px;
+    outline: none;
+    border: 3px double #000000;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #071948;
+}
+.maininput::placeholder{
+    color: #000000;
+    opacity: 50%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+.mainbutton{
+    width: 150px;
+    height: 40px;
+    margin-left: 170px;
+    font-size: 28px;
+    background-color: #666666;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    border: none;
+}
+.mainbutton:hover{
+    background-color: #a6a6a6;
+    color: #ffffef;
+    border: 2px solid #383737;
+}
+.mainbutton:active{
+    background-color: #000000;
+    transform: scale(1.2);
+    color: #ffffff;
+    box-shadow: 0px 1px 19px 7px rgba(255,255,255,0.75);
+-webkit-box-shadow: 0px 1px 19px 7px rgba(255,255,255,0.75);
+-moz-box-shadow: 0px 1px 19px 7px rgba(255,255,255,0.75);
+}
+/* nameplate css */
+
+/* Player 1 input css */
+.main{
+    width: 600px;
+    height: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 5px solid #006582;
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0px -1px 14px 7px #004cffdb;
+   -webkit-box-shadow: 0px -1px 14px 7px #004cffdb;
+   -moz-box-shadow: 0px -1px 14px 7px #004cffdb;
+   display: none;
+}
+.Player-one-box{
+    width: 100%;
+    height: 70px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #006582;
+    box-shadow: 1px 1px 8px 4px rgba(0,101,130,0.75);
+    -webkit-box-shadow: 1px 1px 8px 4px rgba(0,101,130,0.75);
+    -moz-box-shadow: 1px 1px 8px 4px rgba(0,101,130,0.75);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #1A1A1A;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Lexend Mega", sans-serif;
+}
+.Player-one-box::placeholder{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Sedan SC", serif;
+    color: hsla(0, 0%, 100%, 0.517);
+}
+.Player-one-button{
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background-color: #2c2c2c;
+    font-size: 36px;
+    font-weight: 600;
+    
+    
+}
+.Player-one-button:hover{
+    font-size: 48px;
+    background-color: #777777;
+    border: 3px solid #2a2a2a;
+}
+.Player-one-button:active{
+    transform: scale(1.1);
+    border: 3px dashed #656565;
+    box-shadow: 0px 1px 21px 9px rgba(255,255,255,0.75);
+-webkit-box-shadow: 0px 1px 21px 9px rgba(255,255,255,0.75);
+-moz-box-shadow: 0px 1px 21px 9px rgba(255,255,255,0.75);
+}
+/* Player 1 input css */
+
+/* Player 2 input css */
+.Player-two-box{
+    width: 100%;
+    height: 70px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #a05000 ;
+    box-shadow: 1px 1px 8px 4px #a05000;
+    -webkit-box-shadow: 1px 1px 8px 4px #a05000;
+    -moz-box-shadow: 1px 1px 8px 4px #a05000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #1C1C1C;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Lexend Mega", sans-serif;
+}
+.Player-two-box::placeholder{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Sedan SC", serif;
+    color: hsla(0, 100%, 50%, 0.443);
+}
+.player-two{
+    background-color: #323232;
+    border: 5px solid #5d0000;
+    box-shadow: 2px 3px 21px 11px #5d0000;
+-webkit-box-shadow: 2px 3px 21px 11px #5d0000;
+-moz-box-shadow: 2px 3px 21px 11px #5d0000;
+}
+.Player-two-button{
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background-color: #0d0909;
+    color: #ffffef;
+    font-size: 36px;
+    font-weight: 600;;
+}
+.Player-two-button:hover{
+    font-size: 48px;
+    color: red;
+    background-color: #777777;
+    border: 3px solid #2a2a2a;
+}
+.Player-two-button:active{
+    transform: scale(1.1);
+    border: 3px dashed #656565;
+    box-shadow: 0px 1px 21px 9px rgba(255,255,255,0.75);
+-webkit-box-shadow: 0px 1px 21px 9px rgba(255,255,255,0.75);
+-moz-box-shadow: 0px 1px 21px 9px rgba(255,255,255,0.75);
+}
+.player-two{
+    display: none;
+}
+
+
+/* Player 2 input css */
